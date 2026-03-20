@@ -1,5 +1,6 @@
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, User } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const HeroSection = () => {
   const ref = useScrollReveal();
@@ -10,24 +11,37 @@ const HeroSection = () => {
       <div className="absolute top-1/4 -left-32 w-64 h-64 rounded-full bg-primary/10 blur-3xl animate-float" />
       <div className="absolute bottom-1/4 -right-32 w-64 h-64 rounded-full bg-accent/10 blur-3xl animate-float" style={{ animationDelay: "1.5s" }} />
 
-      <div ref={ref} className="container text-center relative z-10">
-        <p className="font-mono text-accent tracking-wider uppercase mb-4 text-3xl">QA Engineer</p>
-        <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-[1.05] tracking-tight mb-6">
-          <span className="text-foreground">Eilon</span>{" "}
-          <span className="gradient-text">Manela</span>
-        </h1>
-        <p className="text-lg md:text-xl text-muted-foreground max-w-xl mx-auto mb-10" style={{ textWrap: "balance" }}>
-          Ensuring software quality through meticulous testing, automation, and a passion for delivering flawless user experiences.
-        </p>
-        <a
-          href="#about"
-          className="inline-flex items-center gap-2 gradient-bg text-primary-foreground px-6 py-3 rounded-full font-medium text-sm hover:opacity-90 active:scale-[0.97] transition-all duration-200">
-          
-          Learn more <ArrowDown size={16} />
-        </a>
-      </div>
-    </section>);
+      <div ref={ref} className="container relative z-10 flex flex-col md:flex-row items-center gap-10 md:gap-16">
+        {/* Profile Picture */}
+        <div className="shrink-0">
+          <Avatar className="w-48 h-48 md:w-64 md:h-64 border-4 border-primary/20 shadow-xl shadow-primary/10">
+            {/* Replace the src below with your actual photo */}
+            <AvatarImage src="/placeholder.svg" alt="Eilon Manela" />
+            <AvatarFallback className="text-4xl bg-muted text-muted-foreground">
+              <User size={64} />
+            </AvatarFallback>
+          </Avatar>
+        </div>
 
+        {/* Text Content */}
+        <div className="text-center md:text-left">
+          <p className="font-mono text-accent tracking-wider uppercase mb-4 text-3xl">QA Engineer</p>
+          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-[1.05] tracking-tight mb-6">
+            <span className="text-foreground">Eilon</span>{" "}
+            <span className="gradient-text">Manela</span>
+          </h1>
+          <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10" style={{ textWrap: "balance" }}>
+            Ensuring software quality through meticulous testing, automation, and a passion for delivering flawless user experiences.
+          </p>
+          <a
+            href="#about"
+            className="inline-flex items-center gap-2 gradient-bg text-primary-foreground px-6 py-3 rounded-full font-medium text-sm hover:opacity-90 active:scale-[0.97] transition-all duration-200">
+            Learn more <ArrowDown size={16} />
+          </a>
+        </div>
+      </div>
+    </section>
+  );
 };
 
 export default HeroSection;
