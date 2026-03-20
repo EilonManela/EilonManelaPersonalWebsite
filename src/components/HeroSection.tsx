@@ -11,7 +11,7 @@ const HeroSection = () => {
       <div className="absolute bottom-1/4 -right-32 w-64 h-64 rounded-full bg-accent/10 blur-3xl animate-float" style={{ animationDelay: "1.5s" }} />
 
       <div ref={ref} className="container text-center relative z-10">
-        <p className="text-sm font-mono text-accent tracking-wider uppercase mb-4">QA Engineer</p>
+        <p className="font-mono text-accent tracking-wider uppercase mb-4 text-3xl">QA Engineer</p>
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-[1.05] tracking-tight mb-6">
           <span className="text-foreground">Eilon</span>{" "}
           <span className="gradient-text">Manela</span>
@@ -21,13 +21,13 @@ const HeroSection = () => {
         </p>
         <a
           href="#about"
-          className="inline-flex items-center gap-2 gradient-bg text-primary-foreground px-6 py-3 rounded-full font-medium text-sm hover:opacity-90 active:scale-[0.97] transition-all duration-200"
-        >
+          className="inline-flex items-center gap-2 gradient-bg text-primary-foreground px-6 py-3 rounded-full font-medium text-sm hover:opacity-90 active:scale-[0.97] transition-all duration-200">
+          
           Learn more <ArrowDown size={16} />
         </a>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
