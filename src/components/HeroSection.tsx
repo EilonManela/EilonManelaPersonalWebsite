@@ -1,6 +1,7 @@
 import { ArrowDown, User } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import eilonPhoto from "@/assets/eilon-photo.jpg";
 
 const HeroSection = () => {
   const ref = useScrollReveal();
