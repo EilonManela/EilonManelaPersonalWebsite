@@ -37,7 +37,7 @@ const ExperienceSection = () => {
   const ref = useScrollReveal();
 
   return (
-    <section id="experience" className="py-24 md:py-32 bg-muted/30">
+    <section id="experience" className="py-14 md:py-20 bg-muted/30">
       <div ref={ref} className="container max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Experience</h2>
         <div className="w-12 h-1 gradient-bg rounded-full mb-12" />

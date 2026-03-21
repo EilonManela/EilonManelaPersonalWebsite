@@ -5,7 +5,7 @@ const CVSection = () => {
   const ref = useScrollReveal();
 
   return (
-    <section id="cv" className="py-24 md:py-32">
+    <section id="cv" className="py-14 md:py-20">
       <div ref={ref} className="container max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">My CV</h2>
         <div className="w-12 h-1 gradient-bg rounded-full mb-12" />
