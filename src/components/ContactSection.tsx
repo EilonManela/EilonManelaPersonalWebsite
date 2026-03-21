@@ -15,7 +15,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className="py-24 md:py-32 bg-muted/30">
+    <section id="contact" className="py-14 md:py-20 bg-muted/30">
       <div ref={ref} className="container max-w-4xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">Get in Touch</h2>
         <div className="w-12 h-1 gradient-bg rounded-full mb-12" />
