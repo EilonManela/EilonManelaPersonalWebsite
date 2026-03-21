@@ -15,7 +15,7 @@ const CVSection = () => {
             {
               icon: GraduationCap,
               title: "Education",
-              items: ["B.Sc. Computer Science", "ISTQB Certified Tester"],
+              items: ["Gal Matalon's Automation College", "ISTQB Certified Tester"],
             },
             {
               icon: Award,
