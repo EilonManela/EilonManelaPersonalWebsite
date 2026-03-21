@@ -17,7 +17,7 @@ const HeroSection = () => {
         <div className="shrink-0">
           <Avatar className="w-48 h-48 md:w-64 md:h-64 border-4 border-primary/20 shadow-xl shadow-primary/10">
             {/* Replace the src below with your actual photo */}
-            <AvatarImage src="/placeholder.svg" alt="Eilon Manela" />
+            <AvatarImage src={eilonPhoto} alt="Eilon Manela" />
             <AvatarFallback className="text-4xl bg-muted text-muted-foreground">
               <User size={64} />
             </AvatarFallback>
