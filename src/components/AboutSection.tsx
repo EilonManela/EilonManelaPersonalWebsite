@@ -33,7 +33,7 @@ const AboutSection = () => {
                 </div>
                 <div>
                   <h3 className="font-semibold text-sm mb-1">{s.label}</h3>
-                  <p className="text-xs text-muted-foreground">{s.desc}</p>
+                  <p className="text-[15px] text-muted-foreground">{s.desc}</p>
                 </div>
               </div>
             );
