@@ -1,11 +1,11 @@
-import { Shield, Bug, Zap, Target } from "lucide-react";
+import { Shield, Bug, Gamepad2, Target } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const skills = [
-  { icon: Shield, label: "Test Automation", desc: "Selenium, Cypress, Playwright" },
-  { icon: Bug, label: "Bug Tracking", desc: "Jira, Azure DevOps, Bugzilla" },
-  { icon: Zap, label: "CI/CD Testing", desc: "Jenkins, GitHub Actions, GitLab" },
-  { icon: Target, label: "API Testing", desc: "Postman, REST Assured, SoapUI" },
+  { icon: Shield, label: "Test Automation", desc: "Selenium, Playwright" },
+  { icon: Bug, label: "Bug Tracking", desc: "Jira, GitHub Projects, ClickUp" },
+  { icon: Gamepad2, label: "Game Tester", desc: "Age of Empires IV, Mental Omega" },
+  { icon: Target, label: "API Testing", desc: "Postman" },
 ];
 
 const AboutSection = () => {
