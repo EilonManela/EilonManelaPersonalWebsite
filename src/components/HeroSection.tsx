@@ -43,7 +43,7 @@ const HeroSection = () => {
       </div>
 
       {/* Social icons bottom-right */}
-      <div className="absolute bottom-8 right-8 flex items-center gap-4 z-10">
+      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:right-8 flex items-center gap-4 z-10">
         {[
           { icon: Mail, href: "mailto:eilonman@gmail.com", label: "Email" },
           { icon: Linkedin, href: "https://www.linkedin.com/in/eilon-manela/", label: "LinkedIn" },
