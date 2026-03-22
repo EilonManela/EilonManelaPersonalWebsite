@@ -59,7 +59,6 @@ const CVSection = () => {
           >
             <Download size={16} /> Download Full CV
           </a>
-          <p className="text-xs text-muted-foreground mt-3">PDF format • Updated March 2026</p>
         </div>
       </div>
     </section>
