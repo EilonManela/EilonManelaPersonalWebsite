@@ -41,7 +41,7 @@ const CVSection = () => {
                 <h3 className="font-semibold mb-3">{block.title}</h3>
                 <ul className="space-y-2">
                   {block.items.map((item) => (
-                    <li key={item} className="text-sm text-muted-foreground flex items-start gap-2">
+                    <li key={item} className="text-[15px] text-muted-foreground flex items-start gap-2">
                       <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0" />
                       {item}
                     </li>

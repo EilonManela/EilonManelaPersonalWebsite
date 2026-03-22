@@ -59,7 +59,7 @@ const ExperienceSection = () => {
                     <p className="text-[15px] text-primary font-medium mb-3">{exp.company}</p>
                     <ul className="space-y-2">
                       {exp.points.map((p, j) => (
-                        <li key={j} className="text-sm text-muted-foreground flex items-start gap-2">
+                        <li key={j} className="text-[15px] text-muted-foreground flex items-start gap-2">
                           <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-accent shrink-0" />
                           {p}
                         </li>

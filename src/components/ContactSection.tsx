@@ -34,7 +34,7 @@ const ContactSection = () => {
                 <a
                   key={link.label}
                   href={link.href}
-                  className="flex items-center gap-3 text-sm text-muted-foreground hover:text-primary transition-colors duration-200 group"
+                  className="flex items-center gap-3 text-[15px] text-muted-foreground hover:text-primary transition-colors duration-200 group"
                 >
                   <span className="p-2 rounded-lg gradient-soft-bg text-primary group-hover:shadow-md group-hover:shadow-primary/10 transition-shadow duration-200">
                     <link.icon size={16} />
