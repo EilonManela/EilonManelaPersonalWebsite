@@ -27,9 +27,9 @@ const ContactSection = () => {
             </p>
             <div className="space-y-4">
               {[
-                { icon: Mail, label: "eilon.manela@email.com", href: "mailto:eilon.manela@email.com" },
-                { icon: Linkedin, label: "LinkedIn Profile", href: "#" },
-                { icon: Github, label: "GitHub Profile", href: "#" },
+                { icon: Mail, label: "eilonman@gmail.com", href: "mailto:eilonman@gmail.com" },
+                { icon: Linkedin, label: "https://www.linkedin.com/in/eilon-manela/", href: "https://www.linkedin.com/in/eilon-manela/" },
+                { icon: Github, label: "https://github.com/EilonManela", href: "https://github.com/EilonManela" },
               ].map((link) => (
                 <a
                   key={link.label}
