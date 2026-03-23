@@ -42,8 +42,8 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Social icons bottom-right */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 md:left-auto md:translate-x-0 md:right-8 flex items-center gap-4 z-10">
+      {/* Social icons - inline on mobile, absolute bottom-right on desktop */}
+      <div className="relative z-10 flex items-center justify-center gap-4 pb-8 md:absolute md:bottom-8 md:right-8 md:pb-0">
         {[
           { icon: Mail, href: "mailto:eilonman@gmail.com", label: "Email" },
           { icon: Linkedin, href: "https://www.linkedin.com/in/eilon-manela/", label: "LinkedIn" },
