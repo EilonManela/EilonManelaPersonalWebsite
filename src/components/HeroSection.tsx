@@ -7,7 +7,7 @@ const HeroSection = () => {
   const ref = useScrollReveal();
 
   return (
-    <section className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
+    <section className="min-h-screen flex flex-col items-center justify-center relative overflow-hidden pt-16">
       {/* Decorative orbs */}
       <div className="absolute top-1/4 -left-32 w-64 h-64 rounded-full bg-primary/10 blur-3xl animate-float" />
       <div className="absolute bottom-1/4 -right-32 w-64 h-64 rounded-full bg-accent/10 blur-3xl animate-float" style={{ animationDelay: "1.5s" }} />
