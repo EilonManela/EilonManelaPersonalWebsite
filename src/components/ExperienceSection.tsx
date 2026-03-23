@@ -2,6 +2,26 @@ import { useScrollReveal } from "@/hooks/useScrollReveal";
 
 const experiences = [
   {
+    role: "Senior QA Engineer",
+    company: "Tech Company",
+    period: "2022 – Present",
+    points: [
+      "Led automation framework development using Playwright and TypeScript",
+      "Reduced regression cycle time by 60% through strategic test automation",
+      "Mentored junior QA engineers and established testing best practices",
+    ],
+  },
+  {
+    role: "QA Engineer",
+    company: "Software Solutions Ltd.",
+    period: "2019 – 2022",
+    points: [
+      "Designed and executed test plans for web and mobile applications",
+      "Implemented API testing suites with Postman and REST Assured",
+      "Collaborated with cross-functional teams in Agile/Scrum environment",
+    ],
+  },
+  {
     role: "Junior QA Tester",
     company: "StartUp Inc.",
     period: "2017 – 2019",
