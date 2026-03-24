@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Automated Testing Framework",
     tech: "Playwright · TypeScript · CI/CD",
-    period: "2023",
+    
     points: [
       "Built a scalable end-to-end testing framework from scratch",
       "Reduced regression cycle time by 60% through strategic automation",
@@ -14,7 +14,7 @@ const projects = [
   {
     title: "API Testing Suite",
     tech: "Postman · REST Assured · Java",
-    period: "2021",
+    
     points: [
       "Designed comprehensive API test suites covering 200+ endpoints",
       "Implemented data-driven testing with dynamic payload generation",
@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Mobile QA Platform",
     tech: "Appium · React Native · Jenkins",
-    period: "2019",
+    
     points: [
       "Developed cross-platform mobile testing automation solution",
       "Created reusable test components for iOS and Android",
@@ -50,9 +50,6 @@ const ProjectsSection = () => {
                 ref={ref2}
                 className="p-6 rounded-xl bg-card border border-border/60 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 flex flex-col"
               >
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-xs font-mono text-accent">{project.period}</span>
-                </div>
                 <h3 className="font-semibold text-lg mb-1">{project.title}</h3>
                 <p className="text-[15px] text-primary font-medium mb-3">{project.tech}</p>
                 <ul className="space-y-2 mt-auto">
