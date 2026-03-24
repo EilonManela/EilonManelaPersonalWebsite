@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="absolute top-1/4 -left-32 w-64 h-64 rounded-full bg-primary/10 blur-3xl animate-float" />
       <div className="absolute bottom-1/4 -right-32 w-64 h-64 rounded-full bg-accent/10 blur-3xl animate-float" style={{ animationDelay: "1.5s" }} />
 
-      <div ref={ref} className="container relative z-10 flex flex-col md:flex-row items-center gap-10 md:gap-16">
+      <div ref={ref} className="container relative z-10 flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20">
         {/* Profile Picture */}
         <div className="shrink-0">
           <Avatar className="w-48 h-48 md:w-64 md:h-64 border-4 border-primary/20 shadow-xl shadow-primary/10">
