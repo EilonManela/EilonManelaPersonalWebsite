@@ -26,11 +26,11 @@ const HeroSection = () => {
 
         {/* Text Content */}
         <div className="text-center md:text-left">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-[1.05] tracking-tight mb-4">
+          <h1 className="text-4xl sm:text-5xl md:text-8xl font-bold leading-[1.05] tracking-tight mb-5">
             <span className="text-primary">Eilon</span>{" "}
             <span className="gradient-text text-primary">Manela</span>
           </h1>
-          <p className="font-mono text-accent tracking-wider uppercase mb-6 text-3xl">QA Engineer</p>
+          <p className="font-mono text-accent tracking-wider uppercase mb-7 text-3xl md:text-4xl">QA Engineer</p>
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10" style={{ textWrap: "balance" }}>
             Ensuring software quality through meticulous testing, automation, and a passion for delivering flawless user experiences.
           </p>
