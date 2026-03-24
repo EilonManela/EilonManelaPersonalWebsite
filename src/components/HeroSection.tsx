@@ -12,10 +12,10 @@ const HeroSection = () => {
       <div className="absolute top-1/4 -left-32 w-64 h-64 rounded-full bg-primary/10 blur-3xl animate-float" />
       <div className="absolute bottom-1/4 -right-32 w-64 h-64 rounded-full bg-accent/10 blur-3xl animate-float" style={{ animationDelay: "1.5s" }} />
 
-      <div ref={ref} className="container relative z-10 flex flex-col md:flex-row items-center gap-10 md:gap-16">
+      <div ref={ref} className="container relative z-10 flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20">
         {/* Profile Picture */}
         <div className="shrink-0">
-          <Avatar className="w-48 h-48 md:w-64 md:h-64 border-4 border-primary/20 shadow-xl shadow-primary/10">
+          <Avatar className="w-48 h-48 md:w-72 md:h-72 border-4 border-primary/20 shadow-xl shadow-primary/10">
             {/* Replace the src below with your actual photo */}
             <AvatarImage src={eilonPhoto} alt="Eilon Manela" />
             <AvatarFallback className="text-4xl bg-muted text-muted-foreground">
@@ -26,11 +26,11 @@ const HeroSection = () => {
 
         {/* Text Content */}
         <div className="text-center md:text-left">
-          <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold leading-[1.05] tracking-tight mb-4">
+          <h1 className="text-4xl sm:text-5xl md:text-8xl font-bold leading-[1.05] tracking-tight mb-5">
             <span className="text-primary">Eilon</span>{" "}
             <span className="gradient-text text-primary">Manela</span>
           </h1>
-          <p className="font-mono text-accent tracking-wider uppercase mb-6 text-3xl">QA Engineer</p>
+          <p className="font-mono text-accent tracking-wider uppercase mb-7 text-3xl md:text-4xl">QA Engineer</p>
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10" style={{ textWrap: "balance" }}>
             Ensuring software quality through meticulous testing, automation, and a passion for delivering flawless user experiences.
           </p>
