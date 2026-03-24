@@ -15,7 +15,7 @@ const HeroSection = () => {
       <div ref={ref} className="container relative z-10 flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20">
         {/* Profile Picture */}
         <div className="shrink-0">
-          <Avatar className="w-48 h-48 md:w-64 md:h-64 border-4 border-primary/20 shadow-xl shadow-primary/10">
+          <Avatar className="w-48 h-48 md:w-72 md:h-72 border-4 border-primary/20 shadow-xl shadow-primary/10">
             {/* Replace the src below with your actual photo */}
             <AvatarImage src={eilonPhoto} alt="Eilon Manela" />
             <AvatarFallback className="text-4xl bg-muted text-muted-foreground">
