@@ -14,7 +14,7 @@ const projects = [
   {
     title: "API Testing Suite",
     tech: "Postman · REST Assured · Java",
-    period: "2021",
+    
     points: [
       "Designed comprehensive API test suites covering 200+ endpoints",
       "Implemented data-driven testing with dynamic payload generation",
