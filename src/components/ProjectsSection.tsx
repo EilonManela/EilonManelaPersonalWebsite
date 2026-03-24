@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Mobile QA Platform",
     tech: "Appium · React Native · Jenkins",
-    period: "2019",
+    
     points: [
       "Developed cross-platform mobile testing automation solution",
       "Created reusable test components for iOS and Android",
