@@ -50,9 +50,6 @@ const ProjectsSection = () => {
                 ref={ref2}
                 className="p-6 rounded-xl bg-card border border-border/60 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/5 transition-all duration-300 flex flex-col"
               >
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-xs font-mono text-accent">{project.period}</span>
-                </div>
                 <h3 className="font-semibold text-lg mb-1">{project.title}</h3>
                 <p className="text-[15px] text-primary font-medium mb-3">{project.tech}</p>
                 <ul className="space-y-2 mt-auto">
