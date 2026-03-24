@@ -4,7 +4,7 @@ const projects = [
   {
     title: "Automated Testing Framework",
     tech: "Playwright · TypeScript · CI/CD",
-    period: "2023",
+    
     points: [
       "Built a scalable end-to-end testing framework from scratch",
       "Reduced regression cycle time by 60% through strategic automation",
