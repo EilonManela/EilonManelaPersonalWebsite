@@ -1,6 +1,7 @@
 import { ArrowDown, User, Mail, Linkedin, Github } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import QABackdrop from "@/components/QABackdrop";
 import eilonPhoto from "@/assets/eilon-photo.jpg";
 
 const HeroSection = () => {
