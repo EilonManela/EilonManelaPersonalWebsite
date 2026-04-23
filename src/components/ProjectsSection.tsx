@@ -1,4 +1,5 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import QABackdrop from "@/components/QABackdrop";
 
 const projects = [
   {
@@ -37,8 +38,9 @@ const ProjectsSection = () => {
   const ref = useScrollReveal();
 
   return (
-    <section id="projects" className="py-14 md:py-20 bg-muted/30">
-      <div ref={ref} className="container max-w-4xl">
+    <section id="projects" className="py-14 md:py-20 bg-muted/30 relative overflow-hidden">
+      <QABackdrop variant="c" />
+      <div ref={ref} className="container max-w-4xl relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">My Projects</h2>
         <div className="w-12 h-1 gradient-bg rounded-full mb-12" />
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">

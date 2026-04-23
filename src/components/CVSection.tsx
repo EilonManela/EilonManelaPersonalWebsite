@@ -1,12 +1,14 @@
 import { Download, GraduationCap, Award, Languages } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import QABackdrop from "@/components/QABackdrop";
 
 const CVSection = () => {
   const ref = useScrollReveal();
 
   return (
-    <section id="cv" className="py-14 md:py-20">
-      <div ref={ref} className="container max-w-4xl">
+    <section id="cv" className="py-14 md:py-20 relative overflow-hidden">
+      <QABackdrop variant="d" />
+      <div ref={ref} className="container max-w-4xl relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">My CV</h2>
         <div className="w-12 h-1 gradient-bg rounded-full mb-12" />
 
