@@ -1,5 +1,6 @@
 import { Shield, Bug, Gamepad2, Target } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
+import QABackdrop from "@/components/QABackdrop";
 
 const skills = [
   { icon: Shield, label: "Test Automation", desc: "Selenium, Playwright" },
@@ -12,8 +13,9 @@ const AboutSection = () => {
   const ref = useScrollReveal();
 
   return (
-    <section id="about" className="py-14 md:py-20">
-      <div ref={ref} className="container max-w-4xl">
+    <section id="about" className="py-14 md:py-20 relative overflow-hidden">
+      <QABackdrop variant="b" />
+      <div ref={ref} className="container max-w-4xl relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
         <div className="w-12 h-1 gradient-bg rounded-full mb-8" />
         <p className="text-muted-foreground text-lg leading-relaxed mb-12 max-w-2xl">
