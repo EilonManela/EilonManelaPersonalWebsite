@@ -62,9 +62,6 @@ const QABackdrop = ({ variant = "a" }: QABackdropProps) => {
         <path d="M9 12l2 2 4-4" />
       </svg>
 
-      {/* Mono QA text accents */}
-      <span className={`absolute ${v.t1} font-mono text-xs tracking-widest text-accent/25 rotate-[-8deg]`}>expect(bugs).toBe(0)</span>
-      <span className={`absolute ${v.t2} font-mono text-xs tracking-widest text-primary/25 rotate-[6deg]`}>{"// PASS ✓"}</span>
     </div>
   );
 };
