@@ -65,7 +65,6 @@ const QABackdrop = ({ variant = "a" }: QABackdropProps) => {
       {/* Mono QA text accents */}
       <span className={`absolute ${v.t1} font-mono text-xs tracking-widest text-accent/25 rotate-[-8deg]`}>expect(bugs).toBe(0)</span>
       <span className={`absolute ${v.t2} font-mono text-xs tracking-widest text-primary/25 rotate-[6deg]`}>{"// PASS ✓"}</span>
-      <span className={`absolute ${v.t3} font-mono text-[10px] tracking-widest text-accent/20`}>assert.equal(quality, 100)</span>
     </div>
   );
 };
