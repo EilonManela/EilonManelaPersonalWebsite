@@ -11,14 +11,14 @@ interface QABackdropProps {
  */
 const QABackdrop = ({ variant = "a" }: QABackdropProps) => {
   const v = {
-    a: { check: "top-[12%] left-[6%]", bug: "top-[18%] right-[8%]", code: "top-[55%] left-[4%]", mag: "top-[60%] right-[6%]", list: "bottom-[10%] left-[10%]", gear: "top-[8%] left-[48%]", shield: "bottom-[14%] right-[12%]", t1: "top-[38%] right-[18%]", t2: "bottom-[30%] left-[22%]", t3: "top-[72%] left-[45%]" },
-    b: { check: "top-[70%] left-[8%]", bug: "top-[10%] right-[14%]", code: "top-[20%] left-[10%]", mag: "bottom-[18%] right-[8%]", list: "top-[50%] right-[22%]", gear: "bottom-[8%] left-[46%]", shield: "top-[60%] left-[38%]", t1: "top-[14%] left-[30%]", t2: "bottom-[40%] right-[28%]", t3: "top-[82%] right-[40%]" },
-    c: { check: "top-[25%] right-[10%]", bug: "bottom-[12%] left-[14%]", code: "top-[8%] left-[20%]", mag: "top-[48%] left-[6%]", list: "bottom-[22%] right-[18%]", gear: "top-[68%] right-[40%]", shield: "top-[14%] right-[38%]", t1: "bottom-[8%] left-[40%]", t2: "top-[42%] right-[30%]", t3: "top-[78%] left-[12%]" },
-    d: { check: "bottom-[18%] right-[8%]", bug: "top-[22%] left-[12%]", code: "bottom-[10%] left-[42%]", mag: "top-[12%] right-[22%]", list: "top-[55%] right-[10%]", gear: "top-[40%] left-[46%]", shield: "bottom-[30%] left-[8%]", t1: "top-[30%] left-[32%]", t2: "top-[70%] right-[24%]", t3: "bottom-[6%] right-[36%]" },
+    a: { check: "top-[6%] left-[2%]", bug: "top-[14%] right-[2%]", code: "top-[55%] left-[1%]", mag: "top-[60%] right-[1%]", list: "bottom-[6%] left-[3%]", gear: "top-[4%] right-[40%]", shield: "bottom-[10%] right-[3%]" },
+    b: { check: "top-[72%] left-[2%]", bug: "top-[6%] right-[3%]", code: "top-[18%] left-[2%]", mag: "bottom-[14%] right-[2%]", list: "top-[48%] right-[2%]", gear: "bottom-[4%] left-[42%]", shield: "top-[40%] left-[2%]" },
+    c: { check: "top-[20%] right-[2%]", bug: "bottom-[8%] left-[3%]", code: "top-[4%] left-[3%]", mag: "top-[48%] left-[2%]", list: "bottom-[18%] right-[3%]", gear: "top-[68%] right-[42%]", shield: "top-[10%] right-[40%]" },
+    d: { check: "bottom-[14%] right-[2%]", bug: "top-[18%] left-[2%]", code: "bottom-[6%] left-[44%]", mag: "top-[8%] right-[3%]", list: "top-[55%] right-[2%]", gear: "top-[40%] right-[42%]", shield: "bottom-[28%] left-[2%]" },
   }[variant];
 
   return (
-    <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden select-none -z-0">
+    <div aria-hidden="true" className="pointer-events-none absolute inset-0 overflow-hidden select-none">
       {/* Checkmark */}
       <svg className={`absolute ${v.check} w-10 h-10 md:w-16 md:h-16 text-primary/30 md:text-primary/20 animate-float`} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
         <path d="M20 6L9 17l-5-5" />
