@@ -3,33 +3,12 @@ import QABackdrop from "@/components/QABackdrop";
 
 const projects = [
   {
-    title: "Automated Testing Framework",
-    tech: "Playwright · TypeScript · CI/CD",
-    
-    points: [
-      "Built a scalable end-to-end testing framework from scratch",
-      "Reduced regression cycle time by 60% through strategic automation",
-      "Integrated with CI/CD pipelines for continuous quality assurance",
-    ],
-  },
-  {
     title: "API Testing Suite",
     tech: "Postman · REST Assured · Java",
-    
     points: [
       "Designed comprehensive API test suites covering 200+ endpoints",
       "Implemented data-driven testing with dynamic payload generation",
       "Achieved 95% API coverage across microservices architecture",
-    ],
-  },
-  {
-    title: "Mobile QA Platform",
-    tech: "Appium · React Native · Jenkins",
-    
-    points: [
-      "Developed cross-platform mobile testing automation solution",
-      "Created reusable test components for iOS and Android",
-      "Established mobile testing best practices and documentation",
     ],
   },
 ];
