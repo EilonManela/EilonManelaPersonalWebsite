@@ -22,7 +22,7 @@ const CVSection = () => {
             {
               icon: Award,
               title: "Certifications",
-              items: ["AWS Cloud Practitioner", "Selenium WebDriver Cert.", "Agile Testing (ICP-TST)"],
+              items: ["QA Manual Engineer", "Google IT Support Professional Certificate"],
             },
             {
               icon: Languages,
