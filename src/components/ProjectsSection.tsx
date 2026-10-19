@@ -51,7 +51,7 @@ const ProjectsSection = () => {
             href={strPdf.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="group block w-full max-w-2xl p-4 rounded-2xl bg-card border border-border/60 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300"
+            className="group block w-full max-w-sm p-3 rounded-2xl bg-card border border-border/60 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300"
           >
             <div className="overflow-hidden rounded-xl border border-border/60">
               <img
