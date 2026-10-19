@@ -16,8 +16,7 @@ const AboutSection = () => {
     <section id="about" className="py-14 md:py-20 relative overflow-hidden">
       <QABackdrop variant="b" />
       <div ref={ref} className="container max-w-4xl relative z-10">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
-        <div className="w-12 h-1 gradient-bg rounded-full mb-8" />
+        <SectionTitle title="About Me" className="mb-8" />
         <p className="text-muted-foreground text-lg leading-relaxed mb-12 max-w-2xl">
           I'm a detail-oriented QA Engineer dedicated to building robust testing strategies that catch issues before they reach users. With experience across manual and automated testing, I bridge the gap between development and delivery.
         </p>
