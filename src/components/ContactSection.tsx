@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Mail, Linkedin, Github, Send } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { useToast } from "@/hooks/use-toast";
+import SectionTitle from "@/components/SectionTitle";
 
 const ContactSection = () => {
   const ref = useScrollReveal();

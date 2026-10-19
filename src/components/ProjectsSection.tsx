@@ -1,5 +1,6 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import QABackdrop from "@/components/QABackdrop";
+import SectionTitle from "@/components/SectionTitle";
 
 const projects = [
   {

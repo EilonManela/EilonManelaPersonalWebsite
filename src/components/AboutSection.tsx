@@ -1,6 +1,7 @@
 import { Shield, Bug, Gamepad2, Target } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import QABackdrop from "@/components/QABackdrop";
+import SectionTitle from "@/components/SectionTitle";
 
 const skills = [
   { icon: Shield, label: "Test Automation", desc: "Selenium, Playwright" },
