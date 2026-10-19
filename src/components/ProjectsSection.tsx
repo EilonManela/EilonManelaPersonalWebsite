@@ -1,6 +1,8 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import QABackdrop from "@/components/QABackdrop";
 import SectionTitle from "@/components/SectionTitle";
+import strPdf from "@/assets/Cinema_Lev_STR_project.pdf.asset.json";
+import strPreview from "@/assets/cinema-lev-str-preview.jpg.asset.json";
 
 const projects = [
   {
@@ -44,10 +46,26 @@ const ProjectsSection = () => {
       <div ref={ref} className="container max-w-4xl relative z-10">
         <SectionTitle title="My Projects" />
         <div className="flex justify-center">
-          <div
-            ref={useScrollReveal(100)}
-            className="w-full max-w-2xl min-h-[420px] p-12 rounded-2xl bg-card border border-border/60 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300"
-          />
+          <a
+            ref={useScrollReveal(100) as any}
+            href={strPdf.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group block w-full max-w-2xl p-4 rounded-2xl bg-card border border-border/60 hover:border-primary/30 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300"
+          >
+            <div className="overflow-hidden rounded-xl border border-border/60">
+              <img
+                src={strPreview.url}
+                alt="Cinema Lev STR project – first page"
+                className="w-full h-auto group-hover:scale-[1.02] transition-transform duration-300"
+                loading="lazy"
+              />
+            </div>
+            <div className="pt-4 text-center">
+              <h3 className="font-semibold text-lg">Cinema Lev – STR</h3>
+              <p className="text-[15px] text-primary font-medium">Click to open the full document</p>
+            </div>
+          </a>
         </div>
       </div>
     </section>
