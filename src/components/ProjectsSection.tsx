@@ -61,8 +61,8 @@ const ProjectsSection = () => {
                 loading="lazy"
               />
             </div>
-            <div className="pt-4 text-center">
-              <h3 className="font-semibold text-lg">Cinema Lev – STR</h3>
+            <div className="pt-3 text-center">
+              <h3 className="font-semibold text-base">Cinema Lev – STR</h3>
               <p className="text-[15px] text-primary font-medium">Click to open the full document</p>
             </div>
           </a>
