@@ -1,5 +1,6 @@
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import QABackdrop from "@/components/QABackdrop";
+import SectionTitle from "@/components/SectionTitle";
 
 const projects = [
   {
@@ -41,8 +42,7 @@ const ProjectsSection = () => {
     <section id="projects" className="py-14 md:py-20 bg-muted/30 relative overflow-hidden">
       <QABackdrop variant="c" />
       <div ref={ref} className="container max-w-4xl relative z-10">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">My Projects</h2>
-        <div className="w-12 h-1 gradient-bg rounded-full mb-12" />
+        <SectionTitle title="My Projects" />
         <div className="flex justify-center">
           <div
             ref={useScrollReveal(100)}

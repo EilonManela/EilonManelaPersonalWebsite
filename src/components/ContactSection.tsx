@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Mail, Linkedin, Github, Send } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import { useToast } from "@/hooks/use-toast";
+import SectionTitle from "@/components/SectionTitle";
 
 const ContactSection = () => {
   const ref = useScrollReveal();
@@ -17,8 +18,7 @@ const ContactSection = () => {
   return (
     <section id="contact" className="py-14 md:py-20 bg-muted/30">
       <div ref={ref} className="container max-w-4xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">Get in Touch</h2>
-        <div className="w-12 h-1 gradient-bg rounded-full mb-12" />
+        <SectionTitle title="Get in Touch" />
 
         <div className="grid md:grid-cols-2 gap-10">
           <div>
