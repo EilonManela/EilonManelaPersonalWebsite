@@ -23,7 +23,7 @@ const CVSection = () => {
             {
               icon: Award,
               title: "Certifications",
-              items: ["QA Manual Engineer", "Google IT Support Professional Certificate"],
+              items: ["QA Engineer", "Google IT Support Professional Certificate"],
             },
             {
               icon: Languages,
