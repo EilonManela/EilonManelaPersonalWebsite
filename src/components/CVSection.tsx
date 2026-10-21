@@ -1,7 +1,7 @@
 import { Download, GraduationCap, Award, Languages } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import QABackdrop from "@/components/QABackdrop";
-import cvAsset from "@/assets/CV_Eilon_Manela.pdf.asset.json";
+import cvAsset from "@/assets/Eilon_Manela_CV.pdf.asset.json";
 import SectionTitle from "@/components/SectionTitle";
 
 const CVSection = () => {
@@ -58,7 +58,7 @@ const CVSection = () => {
         <div className="text-center">
           <a
             href={cvAsset.url}
-            download="CV_Eilon_Manela.pdf"
+            download="Eilon_Manela_CV.pdf"
             className="inline-flex items-center gap-2 gradient-bg text-primary-foreground px-6 py-3 rounded-full font-medium text-sm hover:opacity-90 active:scale-[0.97] transition-all duration-200"
           >
             <Download size={16} /> Download Full CV
