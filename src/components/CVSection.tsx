@@ -1,7 +1,7 @@
 import { Download, GraduationCap, Award, Languages } from "lucide-react";
 import { useScrollReveal } from "@/hooks/useScrollReveal";
 import QABackdrop from "@/components/QABackdrop";
-import cvAsset from "@/assets/CV_Eilon_Manela.pdf.asset.json";
+import cvAsset from "@/assets/Eilon_Manela_CV.pdf.asset.json";
 import SectionTitle from "@/components/SectionTitle";
 
 const CVSection = () => {
