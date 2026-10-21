@@ -58,7 +58,7 @@ const CVSection = () => {
         <div className="text-center">
           <a
             href={cvAsset.url}
-            download="CV_Eilon_Manela.pdf"
+            download="Eilon_Manela_CV.pdf"
             className="inline-flex items-center gap-2 gradient-bg text-primary-foreground px-6 py-3 rounded-full font-medium text-sm hover:opacity-90 active:scale-[0.97] transition-all duration-200"
           >
             <Download size={16} /> Download Full CV
