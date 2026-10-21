@@ -11,6 +11,7 @@ const ProjectsSection = () => {
       <QABackdrop variant="c" />
       <div ref={ref} className="container max-w-4xl relative z-10">
         <SectionTitle title="My Projects" />
+        <p className="text-center text-[15px] font-medium text-muted-foreground mb-3">Etzel Mi?</p>
         <div className="flex justify-center">
           <a
             href="https://claude.ai/artifact/AoraPnUzFrx95wAUtr7QQr"
